@@ -4,7 +4,7 @@ import {WebSocketManager} from "./WebSocketManager.js";
 
 const server = createServer(app);
 
-const appPort = 6969;
+const appPort = process.env.PORT || 6969;
 
 WebSocketManager.startWebSocketServer(server);
 
