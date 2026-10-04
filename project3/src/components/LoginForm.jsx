@@ -11,7 +11,7 @@ export function LoginForm(){
 	async function login(e){
 		e.preventDefault();
 		try{
-			const url = "https://https://test-app-b52q.onrender.com/login";
+			const url = "https://test-app-b52q.onrender.com/login";
 			const credentials = {name: username, pass: password};
 			console.log(credentials);
 			const response = await axios.post(url, credentials);
