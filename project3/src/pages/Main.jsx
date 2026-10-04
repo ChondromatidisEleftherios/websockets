@@ -69,7 +69,7 @@ export function Main(){
 	async function sendInvite(e){
 		console.log(e["target"]["textContent"]);
 		try{
-			const url = "srv-db14au9srm7s73a0o6kg/invite";
+			const url = "https://test-app-b52q.onrender.com/invite";
 			const userInvited = e["target"]["textContent"];
 			const inviteObject = {from: userId, to: userInvited};
 			const response = await axios.post(url, inviteObject);
