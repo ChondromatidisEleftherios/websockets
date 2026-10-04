@@ -21,7 +21,7 @@ export function Main(){
 			if(!userId){
 				navigate("/");
 			}
-			ws = new WebSocket("ws://localhost:6969");
+			ws = new WebSocket("wss://test-app-b52q.onrender.com");
 
 			ws.onopen = sendUserId;
 
