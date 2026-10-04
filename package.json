@@ -1,0 +1,19 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "Testing Web Sockets with react",
+  "license": "ISC",
+  "author": "Chondromatidis Eleftherios",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "react-router-dom": "^7.18.3",
+    "ws": "^8.21.3"
+  }
+}
